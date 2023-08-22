@@ -23,6 +23,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>microservicios.common</groupId>
+            <artifactId>common-microservicios</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
         <!-- Dependency for spring-cloud Netflix Eureka Server -->
         <dependency>

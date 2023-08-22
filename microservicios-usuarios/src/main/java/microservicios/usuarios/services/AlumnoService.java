@@ -1,10 +1,11 @@
 package microservicios.usuarios.services;
 
+import microservicios.common.services.CommonService;
 import microservicios.usuarios.entity.Alumno;
 
 import java.util.Optional;
 
-public interface AlumnoService {
+public interface AlumnoService extends CommonService {
 
     public Iterable<Alumno> findAll();
 

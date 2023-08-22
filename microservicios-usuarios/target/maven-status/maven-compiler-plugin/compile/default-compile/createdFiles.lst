@@ -1,6 +1,0 @@
-microservicios\usuarios\MicroserviciosUsuariosApplication.class
-microservicios\usuarios\controllers\AlumnoController.class
-microservicios\usuarios\repository\AlumnoRepository.class
-microservicios\usuarios\services\AlumnoServiceImpl.class
-microservicios\usuarios\entity\Alumno.class
-microservicios\usuarios\services\AlumnoService.class

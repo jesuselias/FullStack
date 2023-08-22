@@ -27,6 +27,11 @@ public class AlumnoServiceImpl implements AlumnoService {
     }
 
     @Override
+    public Object save(Object entity) {
+        return null;
+    }
+
+    @Override
     @Transactional
     public Alumno save(Alumno alumno) {
         return repository.save(alumno);
